@@ -13,7 +13,9 @@ execute install_softdevice.bat
 and follow the below steps.
 
 #Steps to install softdevice 130 (assuming you have downloaded softdevice from nordic site)
+
 first get into gdb.
+
 1. set confirm off
 2. target extended-remote \\.\<THE COM PORT OF YOU BLACK MAGIC PROBE GDB SERER>
 3. monitor swdp_scan
