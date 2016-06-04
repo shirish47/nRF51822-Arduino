@@ -17,7 +17,7 @@ and follow the below steps.
 first get into gdb.
 
 1. set confirm off
-2. target extended-remote \\\\.\\<THE COM PORT OF YOU BLACK MAGIC PROBE GDB SERVER>
+2. target extended-remote \\\\.\\ COMxx
 3. monitor swdp_scan
 4. attach 1
 5. monitor erase_mass
