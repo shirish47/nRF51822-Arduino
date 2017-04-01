@@ -26,3 +26,11 @@ first get into gdb.
 8. quit
 
 Note in Windows one might have trouble installing device driver. 
+
+
+if you want to read what is written on the flash on NRF51 below is the command
+
+dump binary memory flashmem.bin 0 0x40000
+
+This is for the 256k version (xxAC). For the 128k version replace "0x40000" with "0x20000"
+
