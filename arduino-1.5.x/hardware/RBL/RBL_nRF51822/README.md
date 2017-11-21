@@ -8,9 +8,7 @@ nrf8266 module pin mapping to arduino pinMode function
 
 Program it as instructed by RogerClark [here](http://www.rogerclark.net/arduino-on-the-nrf51822-bluetooth-low-energy-microcontroller/).
 
-To flash the softdevice you would find his install_softdevice.bat in a folder.
-execute install_softdevice.bat
-and follow the below steps.
+To flash the softdevice follow the below steps.
 
 #Steps to install softdevice 130 (assuming you have downloaded softdevice from nordic site)
 
